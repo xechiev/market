@@ -1,0 +1,110 @@
+.header {
+  display: flex;
+  width: 100vw;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(201, 198, 198);
+
+  .logo {
+    width: 140px;
+    height: 60px;
+  }
+
+  .input {
+    border: 1px solid rgb(145, 142, 142);
+    width: 350px;
+    height: 35px;
+    position: relative;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+  }
+
+  .menu {
+    text-decoration: none;
+    color: black;
+    padding: 23px 10px 23px 10px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+
+  .link {
+    color: black;
+    text-decoration: none;
+    padding: 23px 10px 23px 10px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+
+  .sell {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+  }
+
+  .sell:hover {
+    background-color: black;
+    color: #fff;
+  }
+
+  .auth {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+  }
+
+  .menu:hover {
+    border-bottom: 2px solid black;
+  }
+
+  .menu:hover + .list {
+    display: flex;
+  }
+}
+
+.list {
+  display: none;
+  width: 100vw;
+  height: 560px;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  background-color: #fff;
+  top: 70px;
+  left: 0;
+  border-top: 1px solid rgb(201, 198, 198);
+  border-bottom: 1px solid rgb(201, 198, 198);
+  padding: 10px;
+}
+
+.list:hover {
+  display: flex;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 60px 10px 0px;
+
+  .listTitle {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .item {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+}

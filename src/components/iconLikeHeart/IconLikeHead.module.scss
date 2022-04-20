@@ -1,0 +1,13 @@
+.ContainerIconLike {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  top: 10px;
+  right: 10px;
+	
+  @media (min-width: 640px) and (max-width: 920px) {
+    top: 5px;
+    right: 5px;
+  }
+}

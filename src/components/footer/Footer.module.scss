@@ -1,0 +1,53 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 160px;
+  width: 100vw;
+  margin-top: auto;
+  border-top: 1px solid rgb(201, 198, 198);
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80px;
+    width: 90%;
+    border-bottom: 1px solid rgb(201, 198, 198);
+
+    .link {
+      font-size: 15px;
+      text-decoration: none;
+      margin-right: 20px;
+      color: rgb(134, 132, 132);
+      cursor: pointer;
+    }
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  padding: 15px 20px 0 20px;
+  margin: 0 auto;
+
+  .name {
+    font-size: 20px;
+    color: rgb(134, 132, 132);
+    margin-left: 30px;
+  }
+
+  .icon {
+    font-size: 35px;
+    margin-left: 10px;
+    color: rgb(134, 132, 132);
+  }
+
+  .icon:last-child {
+    margin-right: 30px;
+  }
+}
